@@ -19,6 +19,7 @@ public class Prato extends ItemMenu {
 
     @Override
     public String getCardapio() {
-        return "Prato: " + this.getNome() + " - preço: R$ " + this.preco + "\n";
+        String precoFormatado = String.format("%.2f", this.preco).replace('.', ',');
+        return "Prato: " + this.getNome() + " - preço: R$ " + precoFormatado + "\n";
     }
 }

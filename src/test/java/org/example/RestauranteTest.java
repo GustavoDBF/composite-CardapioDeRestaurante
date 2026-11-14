@@ -32,12 +32,12 @@ class RestauranteTest {
 
         assertEquals("Categoria: Menu Completo\n" +
                 "Categoria: Bebidas\n" +
-                "Prato: Suco de Laranja - preço: R$ 8.5\n" +
+                "Prato: Suco de Laranja - preço: R$ 8,50\n" +
                 "Categoria: Pratos Principais\n" +
-                "Prato: Lasanha à Bolonhesa - preço: R$ 35.0\n" +
-                "Prato: Bife a Cavalo - preço: R$ 42.0\n" +
+                "Prato: Lasanha à Bolonhesa - preço: R$ 35,00\n" +
+                "Prato: Bife a Cavalo - preço: R$ 42,00\n" +
                 "Categoria: Sobremesas\n" +
-                "Prato: Pudim - preço: R$ 12.0\n", restaurante.getMenuPrincipal());
+                "Prato: Pudim - preço: R$ 12,00\n", restaurante.getMenuPrincipal());
     }
 
     @Test
